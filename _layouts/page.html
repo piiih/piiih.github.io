@@ -1,0 +1,9 @@
+---
+layout: layout
+---
+
+<h1 id="{{ page.title | downcase | replace: ' ', '-' }}">{{ page.title }}</h1>
+<hr />
+{{ content }}
+
+{% include JB/comments %}
